@@ -1,0 +1,28 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Personal website and portfolio of Daniele Nicolosi",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --load-path=node_modules --quiet-deps scss/custom.scss css/custom.css",
+    "watch": "sass --load-path=node_modules --quiet-deps --watch scss/custom.scss css/custom.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolosidd/personal-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nicolosidd/personal-website/issues"
+  },
+  "homepage": "https://github.com/nicolosidd/personal-website#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  },
+  "devDependencies": {
+    "sass": "^1.105.1"
+  }
+}

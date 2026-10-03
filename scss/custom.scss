@@ -1,0 +1,12 @@
+@use './variables' as *;
+@use './resets';
+@use 'bootstrap/scss/bootstrap';
+
+@function weight($weight-name) {
+    @return map-get($font-weights, $weight-name);
+}
+
+body {
+    background-color: $background-color;
+    color: $text-color;
+}
