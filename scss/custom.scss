@@ -2,11 +2,35 @@
 @use './resets';
 @use 'bootstrap/scss/bootstrap';
 
-@function weight($weight-name) {
-    @return map-get($font-weights, $weight-name);
+
+.tile {
+    height: 100%;
+    padding: 2.5rem;
+    color: #fff;
+    border: var(--bs-border-width) solid $border-color;
+    border-radius: var(--bs-border-radius-lg);
+    background-color: $primary-color;
 }
 
-body {
-    background-color: $background-color;
-    color: $text-color;
+.tile--photo {
+    position: relative;
+    min-height: 220px;
+    padding: 0;
+    overflow: hidden;
+    mix-blend-mode: luminosity;
+}
+
+.background-svg {
+    min-height: 220px;
+    background-image: url('../assets/images/gradient-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+mark {
+    background: linear-gradient(50deg,rgba(33, 52, 128, 1) 0%, rgba(55, 161, 152, 1) 50%, rgba(34, 161, 186, 1) 100%);
+    color: #fff;
+    padding: 0.1rem 0.2rem;
+    font-family:'Courier New', Courier, monospace;
 }

@@ -11865,9 +11865,36 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  background-color: #f5f5f5;
-  color: #353537;
+.tile {
+  height: 100%;
+  padding: 2.5rem;
+  color: #fff;
+  border: var(--bs-border-width) solid #505356;
+  border-radius: var(--bs-border-radius-lg);
+  background-color: #181818;
+}
+
+.tile--photo {
+  position: relative;
+  min-height: 220px;
+  padding: 0;
+  overflow: hidden;
+  mix-blend-mode: luminosity;
+}
+
+.background-svg {
+  min-height: 220px;
+  background-image: url("../assets/images/gradient-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+mark {
+  background: linear-gradient(50deg, rgb(33, 52, 128) 0%, rgb(55, 161, 152) 50%, rgb(34, 161, 186) 100%);
+  color: #fff;
+  padding: 0.1rem 0.2rem;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /*# sourceMappingURL=custom.css.map */

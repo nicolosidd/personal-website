@@ -8,31 +8,97 @@
         <meta name="description" content="Personal website of Daniele Nicolosi Product Designer" />
         <meta property="og:title" content="Daniele Nicolosi Product Designer" />
         <meta property="og:description" content="Personal website of Daniele Nicolosi Product Designer" />
-        <meta name="theme-color" content="#FFFFFF" />
+        <meta property="og:image" content="https://nicolosidd.github.io/personal-website/assets/images/og-img-daniele-nicolosi.jpg">
+        <meta property="og:url" content="https://nicolosidd.github.io/personal-website">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Daniele Nicolosi">
+        <meta name="theme-color" content="#181818" />
         <meta name="application-name" content="Daniele Nicolosi Product Designer" />
         <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon-180x180.png" />
         <link rel="apple-touch-icon" sizes="192x192" href="./assets/images/apple-touch-icon-192x192.png" />
     </head>
-    <body>
-        <header>
-            <nav class="navbar">
-                <div class="navbar__logo">
-                    <a href="#">Daniele Nicolosi is a Product Designer</a>
+    <body class="bg-dark">
+        <main class="container-fluid p-2">
+            <section class="row g-3">
+                <header class="col-12 col-md-8 col-lg-9">
+                    <div class="tile d-flex align-items-center">
+                            <a class="text-wrap text-light link-underline link-underline-opacity-0" href="./index.html"><p class="fs-4 m-0">Daniele Nicolosi is a <mark>Product Designer</mark> based in Rome, Italy</p></a>
+                    </div>
+                </header>
+                <nav class="col-12 col-md-4 col-lg-3">
+                    <div class="tile d-flex align-items-center">
+                        <ul class="list-unstyled m-0">
+                            <li><a href="https://www.linkedin.com/in/danielenicolosi/" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></li>
+                            <li><a href="https://github.com/nicolosidd" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank" rel="noopener noreferrer">GitHub ↗</a></li>
+                            <li><a href="./contacts.html" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Send me a message ↗</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            
+        <div class="col-12 col-lg-5">
+            <div class="tile">
+                <h1 class="display-4">Bridge the gap between design & development</h1>
+                <p class="text-white-50">Through deep understanding of users and products I can accelerate in creating rapid prototyping thanks to design system, MCP and AI tools. I also have strong creative problem-solving and execution skills. I thrive on pushing boundaries, make experiments and deep dive into complex interfaces.</p>
+        
+                <p class="text-white-50">Skilled in coordinating cross-functional teams driving efficiency, consistency and time-to-market improvements. Comfortable operating at the intersection of people, technology and business.</p>
+            </div>
+        </div>
+        <div class="col-12 col-md-8 col-lg-4">
+            <div class="tile">
+                <span class="small text-uppercase text-white-50">Bio</span>
+                <h2 class="display-6">12+ years of experience in designing digital products for multiple industries</h2>
+                <p class="text-white-50">Previously Product Designer in the luxury & retail industry driving conversions and design systems implementations in a multi-brand environment.
+                </p>
+            </div>
+        </div>
+            <div class="col-12 col-md-4 col-lg-3 d-flex flex-column gap-3">
+                <div class="tile tile--photo flex-fill">
+                    <img src="./assets/images/daniele.jpg" alt="Image of Daniele Nicolosi" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover">
                 </div>
-                <ul class="navbar__links">
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#cv">CV</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <h1>Currently shifting to Design Engineering & AI Product Builder</h1>
-            <p>Previously I was product designer in the luxury & retail industry driving conversions and design systems implementations in a multi-brand environment.</p>
-            <button class="btn btn-primary">Prova</button>
-        </main>
-    <script src="./js/bootstrap.bundle.min.js"></script>
-    </body>
+                <a href="./cv.html" class="tile flex-fill d-flex align-items-center justify-content-center text-decoration-none">
+                    <span class="display-6">CV ↗</span>
+                </a>
+            </div>
+        
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="tile">
+                    <span class="small text-uppercase text-white-50">Skills</span>
+                    <ul class="list-unstyled d-flex flex-wrap gap-2 m-0 mt-3">
+                    <li class="badge rounded-pill text-bg-dark border border-secondary fw-normal text-wrap">Product Design & Strategy</li>
+                    <li class="badge rounded-pill text-bg-dark border border-secondary fw-normal text-wrap">User Research</li>
+                    <li class="badge rounded-pill text-bg-dark border border-secondary fw-normal text-wrap">Design Systems</li>
+                    <li class="badge rounded-pill text-bg-dark border border-secondary fw-normal text-wrap">AI Prototyping</li>
+                    <li class="badge rounded-pill text-bg-dark border border-secondary fw-normal text-wrap">HTML / CSS</li>
+                    <li class="badge rounded-pill text-bg-dark border border-secondary fw-normal text-wrap">CRO & A/B Testing</li>
+                    <li class="badge rounded-pill text-bg-dark border border-secondary fw-normal text-wrap">Accessibility & WCAG</li>
+                    <li class="badge rounded-pill text-bg-dark border border-secondary fw-normal text-wrap">Cross-functional Collaboration</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <div class="tile background-svg" aria-hidden="true"></div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <a href="./projects/ai-powered-reminder-prototype.html" class="tile d-flex flex-column justify-content-between text-decoration-none">
+                <span class="small text-uppercase text-white-50">Works</span>
+                    <h3 class="h4">AI-powered Reminder Prototype</h3>
+                    <span>↗</span>
+                </a>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <a href="./projects/ai-outfit-planner-and-second-hand-marketplace.html" class="tile d-flex flex-column justify-content-between text-decoration-none">
+                    <span class="small text-uppercase text-white-50">Works</span>
+                    <h3 class="h4">AI Outfit Planner & Second-Hand Marketplace</h3>
+                    <span>↗</span>
+                </a>
+            </div>
+            
+        </section>
+    </main>
+
+</body>
 </html>

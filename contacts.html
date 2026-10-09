@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/custom.css">
+        <title>Contact Daniele Nicolosi - Product Designer</title>
+        <meta name="description" content="Get in touch or drop me a line for projects deep dive or collaborations." />
+        <meta property="og:title" content="Contact Daniele Nicolosi - Product Designer" />
+        <meta property="og:description" content="Get in touch or drop me a line for projects deep dive or collaborations." />
+        <meta property="og:image" content="https://nicolosidd.github.io/personal-website/assets/images/og-img-daniele-nicolosi.jpg">
+        <meta property="og:url" content="https://nicolosidd.github.io/personal-website/contacts.html">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Daniele Nicolosi">
+        <meta name="theme-color" content="#181818" />
+        <meta name="application-name" content="Contact me - Daniele Nicolosi Product Designer" />
+        <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon-180x180.png" />
+        <link rel="apple-touch-icon" sizes="192x192" href="./assets/images/apple-touch-icon-192x192.png" />
+    </head>
+    <body class="bg-dark">
+        <main class="container-fluid p-2">
+            <div class="row g-3">
+                <header class="col-12 col-md-8 col-lg-9">
+                    <div class="tile d-flex align-items-center">
+                            <a class="text-wrap text-light link-underline link-underline-opacity-0" href="./index.html"><p class="fs-4 m-0">Daniele Nicolosi is a <mark>Product Designer</mark> based in Rome, Italy</p></a>
+                    </div>
+                </header>
+                
+                <nav class="col-12 col-md-4 col-lg-3">
+                    <div class="tile d-flex align-items-center">
+                        <ul class="list-unstyled m-0">
+                        <li><a href="https://www.linkedin.com/in/danielenicolosi/" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></li>
+                        <li><a href="https://github.com/nicolosidd" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank" rel="noopener noreferrer">GitHub ↗</a></li>
+                        </ul>
+                    </div>
+                 </nav>
+            
+            <section class="col-12 col-lg-4">
+                <div class="tile">
+                    <h1 class="display-6">Drop me a line to get connected or to receive updates on future works I'm working on.</h1>
+                    <p class=" display-6 text-secondary">It can be a great way to stay in touch!</p>
+                </div>
+            </section>
+
+            <section class="col-12 col-lg-4">
+                <div class="tile">
+                    <form id="contact-form">
+                        <div class="visually-hidden" aria-hidden="true">
+                            <input type="text" name="website" tabindex="-1" autocomplete="off">
+                        </div>
+                        <div class="mb-3">
+                            <label for="FormControlInput1" class="form-label">Name</label>
+                            <input type="text" name="name" class="form-control" id="FormControlInput1" autocomplete="given-name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="FormControlInput2" class="form-label">Surname</label>
+                            <input type="text" name="surname" class="form-control" id="FormControlInput2" autocomplete="family-name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="FormControlInput3" class="form-label">Email</label>
+                            <input type="email" name="email" class="form-control" id="FormControlInput3" placeholder="name@mail.com" autocomplete="email" required>
+                        </div>
+                        <div class="mb-3">
+                              <label for="FormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" name="message" id="FormControlTextarea1" rows="3" placeholder="Hi Daniele..." required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary">Send message</button>
+                        </div>
+                        <div id="form-status" role="status" aria-live="polite" class="small"></div>
+                    </form>
+                </div>    
+            </section>
+
+            <section class="col-12 col-lg-4">
+                <div class="tile background-svg" aria-hidden="true"></div>
+            </section>
+        </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script src="./js/contact.js"></script>
+    </body>
+</html>
